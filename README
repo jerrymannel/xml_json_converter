@@ -1,0 +1,42 @@
+    xmlToJson version 1.0
+===============================================
+
+For copyright information please refer LICENSE file.
+
+
+What is Badgerfish?
+-----------------------
+BadgerFish is a convention for translating an XML document into a JSON object. 
+Read more about it here - http://badgerfish.ning.com/
+
+
+How to use this program?
+-----------------------------
+1. Import xmlToJson into your python program,
+	import xmlToJson
+
+2. Call the function, xmlToJson.to_json(xmlString).
+This returns a JSON string.
+
+Refer the sample.py file to see how the program is run.
+
+
+What version of Python should i use?
+-------------------------------------
+The program was tested on Python 2.6.6. But it should work on all 2.x versions 
+of Python.
+
+
+Does it work?
+---------------
+I have done a set of tests and that checked out ok.
+Incase the JSON doesn't turns out incorrect, please let me know.
+But if you were able to tweak my program and fix the issue, i'm more than happy 
+to include those changes into the program.
+
+
+Limitations / Known Issues
+----------------------------
+
+1. The XML string has to be one single line.
+   The program doesn't handle line breaks.
